@@ -1,0 +1,50 @@
+/*selector universal*/
+* {
+    margin: 17;
+    padding: 0;
+    background-color: rgb(236, 216, 148);
+}
+
+@font-face {
+    font-family: 'Hey comic';
+    src: url(../Multimedia/Hey_Comic.otf);
+}
+
+p {
+    font-family: 'Hey comic';
+    font-size: 25px;
+}
+
+/*selector de etiqueta*/
+
+@font-face {
+    font-family: 'starbim';
+    src: url(../Multimedia/Starbim.otf);
+}
+
+h1 {
+    font-family: 'starbim';
+    font-size: 65px;
+    text-align: center;
+    color: rgb(140, 143, 0);
+}
+
+h3 {
+    font-family: 'starbim';
+    font-size: 40px;
+    color: rgb(140, 143, 0);
+}
+
+ul {
+    font-family: 'Hey comic';
+    font-size: 25px;
+}
+
+ol {
+    font-family: 'Hey comic';
+    font-size: 25px;
+}
+
+.img-postredeyogurybanana {
+    width: 50%;
+}

@@ -1,0 +1,47 @@
+/*selector universal*/
+* {
+    margin: 10;
+    padding: 0;
+    background-color: rgb(212, 162, 111);
+}
+@font-face {
+    font-family: 'Hey comic';
+    src: url(../Multimedia/Hey_Comic.otf);
+}
+
+p {
+    font-family: 'Hey comic';
+    font-size: 25px;
+}
+
+/*selector de etiqueta*/
+h1 {
+    color: brown;
+    background-color: rgba(92, 22, 22, 0.185);
+    text-align: center;
+    font-size: 60px;
+    font-family: cursive;
+}
+
+h3 {
+    color: brown;
+    font-size: 35px;
+    font-family: cursive;
+}
+
+li {
+    font-size: 25px;
+    font-family: 'Hey comic';
+}
+
+ul {
+    margin: 5;
+}
+
+ol {
+    padding: 5;
+}
+
+.img-arrozconleche {
+    width:  60%;
+}
